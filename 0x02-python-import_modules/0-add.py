@@ -3,6 +3,4 @@ if __name__ == "__main__":
     from add_0 import add
     a = 1
     b = 2
-    print("<a {}> + <b {}> = ".format(a, b), end="")
-    result = add(a, b)
-    print("<add({}, {}) {}>".format(a, b, result))
+    print("{} + {} = {}".format(a, b, add(a, b)))
