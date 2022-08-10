@@ -20,7 +20,7 @@ class Rectangle:
             ValueError if the value
             is less than 0
         """
-        return (self.__height)
+        return (self._Rectangle__height)
 
     @height.setter
     def height(self, value):
@@ -44,7 +44,7 @@ class Rectangle:
             ValueError if the value of
             height is less than 0
         """
-        return (self.__width)
+        return (self._Rectangle__width)
 
     @width.setter
     def width(self, value):
