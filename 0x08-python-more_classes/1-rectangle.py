@@ -4,11 +4,12 @@
 
 class Rectangle:
     """Instantiation with optional width and height"""
+
     def __init__(self, width=0, height=0):
         """Rectangle instance"""
 
-        self._Rectangle__height = height
-        self._Rectangle__width = width
+        self.height = height
+        self.width = width
 
     @property
     def height(self):
