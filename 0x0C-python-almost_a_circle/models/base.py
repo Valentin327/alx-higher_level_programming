@@ -1,12 +1,11 @@
 #!/usr/bin/python3
 """Base module"""
 
+
 class Base:
     """Base of all other classes"""
 
-
     __nb_objects = 0
-
 
     def __init__(self, id=None):
         """Class constructor"""
