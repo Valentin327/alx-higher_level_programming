@@ -38,3 +38,18 @@ Traceback (most recent call last):
 8, in add_integer                                                                                  
     raise TypeError("a must be an integer")                                                        
 TypeError: a must be an integer
+
+>>> add_integer()                                                                                  
+Traceback (most recent call last):                                                                 
+  File "<stdin>", line 1, in <module>                                                              
+NameError: name 'add_integer' is not defined
+
+>>> add_integer(1000e1000)                                                                         
+Traceback (most recent call last):                                                                 
+  File "<stdin>", line 1, in <module>                                                              
+NameError: name 'add_integer' is not defined
+
+>>> add_integer(float('nan'))                                                                      
+Traceback (most recent call last):                                                                 
+  File "<stdin>", line 1, in <module>                                                              
+NameError: name 'add_integer' is not defined
