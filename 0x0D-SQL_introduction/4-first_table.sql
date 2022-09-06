@@ -1,5 +1,3 @@
--- create table
--- create table
-IF NOT EXISTS ( CREATE TABLE first_table (
-	id INT,
-	name VARCHAR(256));
+-- create table in the current database in your mysql server
+-- create table in the current database
+IF NOT EXISTS (CREATE TABLE first_table(id INT, name VARCHAR(256));
